@@ -1,0 +1,13 @@
+C:\Users\s\RiderProjects\Lab81\Lab81\obj\Debug\netcoreapp3.1\Lab81.csprojAssemblyReference.cache
+C:\Users\s\RiderProjects\Lab81\Lab81\obj\Debug\netcoreapp3.1\Lab81.AssemblyInfoInputs.cache
+C:\Users\s\RiderProjects\Lab81\Lab81\obj\Debug\netcoreapp3.1\Lab81.AssemblyInfo.cs
+C:\Users\s\RiderProjects\Lab81\Lab81\obj\Debug\netcoreapp3.1\Lab81.csproj.CoreCompileInputs.cache
+C:\Users\s\RiderProjects\Lab81\Lab81\bin\Debug\netcoreapp3.1\Lab81.exe
+C:\Users\s\RiderProjects\Lab81\Lab81\bin\Debug\netcoreapp3.1\Lab81.deps.json
+C:\Users\s\RiderProjects\Lab81\Lab81\bin\Debug\netcoreapp3.1\Lab81.runtimeconfig.json
+C:\Users\s\RiderProjects\Lab81\Lab81\bin\Debug\netcoreapp3.1\Lab81.runtimeconfig.dev.json
+C:\Users\s\RiderProjects\Lab81\Lab81\bin\Debug\netcoreapp3.1\Lab81.dll
+C:\Users\s\RiderProjects\Lab81\Lab81\bin\Debug\netcoreapp3.1\Lab81.pdb
+C:\Users\s\RiderProjects\Lab81\Lab81\obj\Debug\netcoreapp3.1\Lab81.dll
+C:\Users\s\RiderProjects\Lab81\Lab81\obj\Debug\netcoreapp3.1\Lab81.pdb
+C:\Users\s\RiderProjects\Lab81\Lab81\obj\Debug\netcoreapp3.1\Lab81.genruntimeconfig.cache
