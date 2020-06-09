@@ -21,7 +21,7 @@ namespace Lab81
             while (!DateTime.TryParse(date, out dateTime))
             {
                 Console.WriteLine("Невiрне значення");
-                Console.Write("Дата(дд.мм.рр):");
+                Console.Write("Дата(дд.мм.рр): ");
                 date = Console.ReadLine();
             }
 
