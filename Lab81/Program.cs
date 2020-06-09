@@ -81,7 +81,7 @@ namespace Lab81
                 pib = Console.ReadLine();
             }
             add.Pib = pib;
-            Console.WriteLine("Введіть рік народження:");
+            Console.WriteLine("Введіть дату народження:");
             string date = Console.ReadLine();
             add.Year = Checkdate(date);
             Console.WriteLine("Введіть номер залікової книжки(8 цифр):");
@@ -168,13 +168,12 @@ namespace Lab81
                    Console.WriteLine("Введіть ПІБ ще раз:");
                    pib = Console.ReadLine();
                }
-
                edit.Pib = pib;
            }
 
            if (number1 == 2)
            {
-               Console.WriteLine("Введіть рік вступу:");
+               Console.WriteLine("Введіть дату народження:");
                string date = Console.ReadLine();
                edit.Year = Checkdate(date);
            }
@@ -222,10 +221,11 @@ namespace Lab81
            if (Console.ReadKey().Key == ConsoleKey.Enter)
            {
                Student.Insert((number-1),new SPerform(){Pib = edit.Pib,Year = edit.Year,Id = edit.Id, Rating = edit.Rating,Wishes = edit.Wishes});
-               using (StreamWriter f = new StreamWriter("C:\\Users\\s\\RiderProjects\\Lab81\\Lab81\\StudentPerformance.txt"))
+               Student.RemoveAt(number);
+               using (StreamWriter f = new StreamWriter("C:\\Users\\s\\RiderProjects\\Lab81\\Lab81\\StudentPerformance.txt",false))
                    for (int i = 0; i < length; i++)
                    {
-                       if(i != number - 1)f.WriteLine(str[i]);
+                       if(i != (number - 1))f.WriteLine(str[i]);
                        else f.WriteLine("{0,-31}{1,-15}{2,-15}{3,-7}{4,-40}", edit.Pib, edit.Year, edit.Id, edit.Rating, edit.Wishes);
                         
                    }
